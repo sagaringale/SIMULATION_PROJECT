@@ -18,13 +18,33 @@ This project was generated with [Python]
 
 
 # Project Description: 
-			life insurance The analysis will involve calculating the fair premiums 
-		he data being used are from the Social Security Administration Actuarial Life Tables 
-		and the visualizations/analysis will be of life expectancies and premiums.
+		# IN THIS PROJECT USE SIMULATION METHOD & WORK  
+		
+		
+		-GET DATE VARIABLES NEEDED FOR CALCULATIONS AND OUTPUT TEXT
+		
+		-GENERATE CORRELATED STANDARD NORMALS USING THE POLAR METHOD, THEN CONVERT TO CORRELATED UNIFORMS
+                
+		-CREATE CUMULATIVE PROBABILITY DISTRIBUTION 0<=F(120-a)<=1 WHERE a IS EXACT AGE
+               
+                -INVERSE TRANSFORM MAPS 0<=U<=1 TO 0<=H(U)<=(120-a) WHERE a IS EXACT AGE 
+		
+		-MONTE CARLO SIMULATION OF REMAINING LIFESPAN	
+		
+		-VISUALIZATIONS FOR DATA
+		
+		-DISPLAY UNIFORM DISTRIBUTION PLOT [Probability of Death and Life Expectancy]
+		
+		-DISPLAY SCATTER PLOT [Using Monte Carlo Simulation Result of Remaing Lifespan)
+
+		-SCENARIO 1 (N Premium Payment Sources, 1 Benefit Payment)
 
 #### Runing Application:
  
-	- Open terminal.
+	- Open terminal
+	- Install python 2.7
+	- Install Library 
+	-bs4, urllib2, pandas, datetime, random, math, numpy, matplotlib
 	- life.python
 
 Note: Make sure your in project directory.
