@@ -45,7 +45,7 @@ This project was generated with [Python]
 	- Install python 2.7
 	- Install Library:- 
 	   bs4, urllib2, pandas, datetime, random, math, numpy, matplotlib
-	- life.python
+	- python life.py
 
 Note: Make sure your in project directory.
 
